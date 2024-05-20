@@ -22,7 +22,7 @@ def pifagor_tree(t, branch_len, order):
 def draw_pifagor_tree(order):
     window = turtle.Screen()
     window.bgcolor("white")  # Білий фон
-    window.title("Піфагорове дерево")
+    window.title("Дерево Піфагора")
     
     t = turtle.Turtle()
     t.speed(0)  # Максимальна швидкість малювання
@@ -32,7 +32,7 @@ def draw_pifagor_tree(order):
     t.pendown()
     t.color("black")  # Зміна кольору дерева на чорний
 
-    pifagor_tree(t, 200, order)  # Збільшена початкова довжина гілки
+    pifagor_tree(t, 200, order)  # Початкова довжина гілки
 
     window.mainloop()
 
